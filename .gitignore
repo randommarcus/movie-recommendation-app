@@ -1,16 +1,21 @@
-# Python
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+
+# Python Cache
 __pycache__/
 *.pyc
 
-# Virtual Environment (e.g., venv, .venv)
-venv/
-.venv/
-
 # Large Data Files
-# It's better to not track large CSVs in Git.
-# If your CSV is large, add it here.
+# It's good practice to not track large CSVs in Git.
 *.csv
 
-# OS-specific files
+# IDE & Editor Directories
+.vscode/
+.idea/
+
+# Operating System Files
 .DS_Store
 Thumbs.db
